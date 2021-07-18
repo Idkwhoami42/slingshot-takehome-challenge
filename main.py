@@ -54,4 +54,4 @@ api.add_resource(delete, '/delete')
 api.add_resource(search, '/search')
 api.add_resource(keywords, '/keywords')
 if __name__ == '__main__':
-    app.run()
+    app.run(host = "0.0.0.0")
