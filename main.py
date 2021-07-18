@@ -46,7 +46,7 @@ class keywords(Resource):
         if(args['keyword'] == None):
             return {'response' : trie.get_keywords("")}
         else:
-            return {'repsonse' : trie.get_keywords_with_prefix(args['keyword'])}
+            return {'response' : trie.get_keywords_with_prefix(args['keyword'])}
     
     
 api.add_resource(insert, '/insert') 

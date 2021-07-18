@@ -64,8 +64,3 @@ class Trie:
                 return
             node = node.children[ord(prefix[i]) - ord('a')]
         return self.get_keywords(prefix, node)
-
-trie = Trie()
-trie.insert("hello")
-trie.insert('hell')
-print(trie.get_keywords(""))
