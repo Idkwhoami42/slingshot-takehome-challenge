@@ -29,6 +29,11 @@ class delete(Resource):
             trie.erase(keyword)
             return {'response': 'successfully deleted'}
 
+class deleteall(Resource):
+    def post(self):
+        trie.eraseall()
+        return {'response' : 'successfully deleted all keywords'}
+
 class search(Resource):
     def get(self):
         parser = reqparse.RequestParser()
@@ -51,6 +56,7 @@ class keywords(Resource):
     
 api.add_resource(insert, '/insert') 
 api.add_resource(delete, '/delete')
+api.add_resource(deleteall, '/deleteall')
 api.add_resource(search, '/search')
 api.add_resource(keywords, '/keywords')
 if __name__ == '__main__':

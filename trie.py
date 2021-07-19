@@ -22,6 +22,11 @@ class Trie:
             node = node.children[ord(keyword[i])-ord('a')]
         return node != None and node.leaf   
     
+    def eraseall(self):
+        node = self.root
+        node.children = [None]*26
+        node.leaf = False
+    
     def erase(self, keyword):
         if (not self.search(keyword)):
             return
@@ -57,6 +62,7 @@ class Trie:
             if node.children[i] != None:
                 keywords.extend(self.get_keywords(curr + chr(i + ord('a')), node.children[i]))
         return keywords
+    
     def get_keywords_with_prefix(self, prefix):
         node = self.root
         for i in range(len(prefix)):
