@@ -80,6 +80,6 @@ Server is running at the time of submission on digital ocean.
   
 ## Screenshots
 
-![Demo](https://imgur.com/a/cGcCf3c)
+[Demo](https://imgur.com/a/cGcCf3c)
 
   
