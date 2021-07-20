@@ -78,5 +78,8 @@ Server is running at the time of submission on digital ocean.
 - Command line tool made with the help of [PyInquirer](https://github.com/CITGuru/PyInquirer)
 - Stackoverflow for errors
   
+## Screenshots
+
+![Demo](https://imgur.com/a/cGcCf3c)
 
   
