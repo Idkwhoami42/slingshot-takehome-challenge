@@ -1,7 +1,7 @@
 import requests
 from requests.models import Response
 
-serverip = 'localhost:5000'
+serverip = '139.59.46.128:5000'
 
 def insert(keyword):
     response = requests.post(rf'http://{serverip}/insert?keyword={keyword}')
