@@ -5,7 +5,6 @@ from api import *
 import hashlib
 
 correcthash = hashlib.sha256("hello".encode()).hexdigest()
-print(correcthash)
 triename = ""
 loggedin = False
 
