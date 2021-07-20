@@ -70,6 +70,19 @@ Server is running at the time of submission on digital ocean.
 - **keywords:** returns all keywords in the trie
 
 
+## Documentation
+
+### Server Side
+- Hosted on Digital Ocean
+- A global trie is running
+- With the help of flask, CLI tool connects to the server via REST API
+- APIs can be found in `CLI/api.py`
+- You can test the APIs with postman
+
+
+## Command Line Side
+- PyInquirer is used for the CLI inteferance
+- With the help of RESTful API, it interacts with global trie
   
 ## Tools/Resources Used
 
@@ -81,5 +94,6 @@ Server is running at the time of submission on digital ocean.
 ## Screenshots
 
 [Demo](https://imgur.com/a/cGcCf3c)
+
 
   
