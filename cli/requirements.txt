@@ -1,0 +1,4 @@
+prompt_toolkit==1.0.14
+requests==2.25.1
+PyInquirer==1.0.3
+tweepy==3.10.0

@@ -70,3 +70,4 @@ class Trie:
                 return
             node = node.children[ord(prefix[i]) - ord('a')]
         return self.get_keywords(prefix, node)
+    
