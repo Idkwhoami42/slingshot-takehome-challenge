@@ -45,7 +45,20 @@ Server is running at the time of submission on digital ocean.
     according to your server ip (`localhost:5000`, if running locally)
 - On starting, there is a default trie with `name = default` and `password = slingshot`
 - However you can create new tries
+- run the following command to start 
+    #### Windows
+    ```bash
+    cd cli
+    pip install -r requirements.txt
+    python cli.py
+    ```
 
+    #### Linux/MacOS
+    ```bash
+    cd cli
+    pip install -r requirements.txt
+    python3 cli.py
+    ```
 
 ### Commands
 
@@ -65,5 +78,8 @@ Server is running at the time of submission on digital ocean.
 - Command line tool made with the help of [PyInquirer](https://github.com/CITGuru/PyInquirer)
 - Stackoverflow for errors
   
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
   
