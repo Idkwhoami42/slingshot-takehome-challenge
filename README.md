@@ -24,11 +24,13 @@ A Trie system that is hosted online with a global state that supports multiple c
 #### Windows
 ```bash
     cd server
+    pip install -r requirements.txt
     python main.py
 ```
 #### Linux/MacOS
 ```bash
     cd server
+    pip install -r requirements.txt
     python3 main.py
 ```
 
