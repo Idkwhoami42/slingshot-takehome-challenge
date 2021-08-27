@@ -2,7 +2,7 @@
 # Slingshot Take Home Challenge
 
 A Trie system that is hosted online with a global state that supports multiple concurrent clients.
-
+Note: my digital ocean expired, so you will have to run it locally
 
 
 
